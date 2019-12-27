@@ -5,11 +5,14 @@
 - Configured host file
 
 ## How to Use:
-`git clone git@github.com:mi-enfra/api-php-composer.git .`
+1. `git clone git@github.com:mi-enfra/api-php-composer.git .`
 
-`bash setup.sh`
+2. `bash setup.sh`
 
-- Configures project URL
-- Builds image locally
+    - Configures project URL
+    - Builds image locally
 
-`docker-compose up -d`
+3. `docker-compose up -d`
+
+## Notes
+1. To configure composer packages, `bash composer.sh` takes you inside the dev environment
